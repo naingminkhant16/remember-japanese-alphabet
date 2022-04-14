@@ -24,27 +24,26 @@ $db = new DB();
 </head>
 
 <body>
-    <h1 class="text-center text-light mt-5">Hiragana</h1>
-    <div class="container mt-3">
-        <a href="index.php" class="text-decoration-none text-center text-light">
-            <<- Back </a><br>
-                <div class="text-center mt-5">
-                    <img class="hira" src="images/hiragana.png" alt="hiragana">
-                </div>
-             
-                <div class="text-center mt-5">
-                    <a href="exercise.php?n_id=2" class="text-decoration-none text-center fs-2 btn btn-md-lg btn-danger">
-                        Do Exercise
-                    </a>
-                </div>
+    <div class="bg pt-3 p-sm-5">
+        <h1 class="text-center text-light">Hiragana</h1>
+        <div class="container mt-3">
+            <a href="index.php" class="text-decoration-none text-center text-light">
+                <<- Back </a><br>
+                    <div class="text-center mt-5">
+                        <img class="hira" src="images/hiragana.png" alt="hiragana">
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <a href="exercise.php?n_id=2" class="text-decoration-none text-center fs-2 btn btn-md-lg btn-danger">
+                            Do Exercise
+                        </a>
+                    </div>
+        </div>
+
+        <footer class="p-3 text-center mt-5">
+            <p class="text-light"> copy &copy; 2022, Created By Naing Min Khant</p>
+        </footer>
     </div>
-
-
-
-
-    <footer class="p-3 text-center mt-5">
-        <p class="text-light"> copy &copy; 2022, Created By Naing Min Khant</p>
-    </footer>
 </body>
 
 </html>

@@ -1,12 +1,22 @@
-body {
+/* body {
     background: linear-gradient(to right, rgba(60, 60, 60, 0.4), rgba(60, 60, 60, 0.4)), url("../images/bg.jpg");
     width: 100%;
-    height: 100%;
+    height: 100;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
-    /* position: relative; */
+    
+} */
+
+.bg {
+    background: linear-gradient(to right, rgba(60, 60, 60, 0.4), rgba(60, 60, 60, 0.4)), url("../images/bg.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
-.hv:hover{
+
+.hv:hover {
     opacity: 0.8;
 }
